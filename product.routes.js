@@ -37,3 +37,4 @@ router.get('/productswitherror', (request, response) => {
    throw err
 });
 
+module.exports = router;
