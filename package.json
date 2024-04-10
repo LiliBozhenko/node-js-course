@@ -1,23 +1,22 @@
 {
-  "name": "git_project",
+  "name": "git-lab",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node src/index.js",
-    "migration:generate": "drizzle-kit generate:pg",
-    "migration:push": "drizzle-kit push:pg"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "bozhenko lilia",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiliBozhenko/node-js-course.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "drizzle-orm": "^0.30.7",
-    "express": "^4.18.2",
-    "pg": "^8.11.5",
-    "pg-core": "^0.1.15"
+  "bugs": {
+    "url": "https://github.com/LiliBozhenko/node-js-course/issues"
   },
-  "devDependencies": {
-    "drizzle-kit": "^0.20.14"
+  "homepage": "https://github.com/LiliBozhenko/node-js-course#readme",
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
